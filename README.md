@@ -112,12 +112,23 @@ flowchart LR
 
 ### 🤝 Engineering Collaboration & Connect
 
-> I am open to software engineering opportunities, autonomous AI agent development, and high-impact full-stack products.  
-> ✉️ **Direct Email:** [Developer@imprince.me](mailto:Developer@imprince.me)  
-> 🌐 **Portfolio & Case Studies:** [imprince.me](https://imprince.me)  
-> 💼 **LinkedIn:** [linkedin.com/in/princeraj-in](https://www.linkedin.com/in/princeraj-in/)
+<p align="center">
+  <em>I am open to software engineering opportunities, autonomous AI agent development, and high-impact full-stack products.</em>
+</p>
+<br/>
 
----
+<!-- IMAGE 2 STYLE PROFESSIONAL CONTACT & SOCIAL LOGOS -->
+<p align="center">
+  <a href="https://www.linkedin.com/in/princeraj-in/" target="_blank" rel="noreferrer" title="LinkedIn | Prince Raj">
+    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/footer-linkedin.svg" alt="LinkedIn" width="75" height="90" />
+  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:Developer@imprince.me" title="Direct Email | Developer@imprince.me">
+    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/footer-email.svg" alt="Email" width="75" height="90" />
+  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://imprince.me" target="_blank" rel="noreferrer" title="Portfolio & Case Studies | imprince.me">
+    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/footer-portfolio.svg" alt="Portfolio" width="75" height="90" />
+  </a>
+</p>
 
 <!-- FOOTER BANNER -->
 <p align="center">
