@@ -10,13 +10,41 @@
   </a>
 </p>
 
-<!-- QUICK SOCIAL BADGES -->
+<!-- SOCIAL & CONTACT BADGES -->
 <p align="center">
   <a href="https://imprince.me"><img src="https://img.shields.io/badge/Portfolio-imprince.me-000000?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/princeraj-in/"><img src="https://img.shields.io/badge/LinkedIn-Prince_Raj-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:Developer@imprince.me"><img src="https://img.shields.io/badge/Email-Developer%40imprince.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="mailto:kusprince.raj@gmail.com"><img src="https://img.shields.io/badge/Personal-kusprince.raj%40gmail.com-34A853?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
+
+---
+
+### 👨‍💻 About Me
+
+I am a **Full-Stack Software Engineer & AI Systems Developer** based in Delhi, India. I specialize in engineering production-grade web applications, responsive cross-platform architectures, and intelligent software powered by large language models.
+
+* 🔭 **Currently Building:** Autonomous AI agents, real-time event platforms, and cloud-native mobile applications.
+* 💡 **Engineering Philosophy:** Clean code, robust architectural patterns (MVVM, Clean Architecture, Serverless), and responsive user-centric design.
+* ⚡ **Core Focus:** Python automation, TypeScript/React ecosystems, Android development with Jetpack Compose, and AI integration via Gemini APIs.
+* 🎯 **Location:** Delhi, India • Available for collaborative software engineering and impactful product roles.
+
+---
+
+### 📈 GitHub Activity & Engineering Metrics
+
+<p align="center">
+  <a href="https://github.com/princeraj-in">
+    <img src="https://streak-stats.demolab.com?user=princeraj-in&theme=onedark&hide_border=true" alt="GitHub Streak" />
+  </a>
+</p>
+
+| 📊 Metric | 📈 Status / Level | 🔍 Focus Area |
+| :--- | :--- | :--- |
+| 🚀 **Active Production Apps** | 3 Live Deployed Applications | Full-Stack Web, PWA, & Mobile Interfaces |
+| 📦 **Open-Source Repositories** | 5 Repositories with MIT Licenses | Community-friendly, well-documented codebases |
+| ⚡ **Total Git Activity** | 88+ Contributions in 2026 | Active feature development & architecture refactoring |
+| 🌐 **Primary Apex Domain** | [imprince.me](https://imprince.me) | Vercel Edge hosting & DNS configuration |
 
 ---
 
@@ -28,21 +56,32 @@
   </a>
 </p>
 
-#### Core Specializations
-* 🐍 **Python Ecosystem:** Backend Automation, LLM Agent Workflows, Cloud API Integrations
-* ⚡ **Web & Full-Stack:** TypeScript, React, Next.js, Tailwind CSS, Vite, Node.js
-* 📱 **Mobile Development:** Android Native, Jetpack Compose, Kotlin
-* ☁️ **Cloud & Storage:** Firebase Firestore, Vercel Serverless, Git & GitHub Version Control
+#### Technical Depth Breakdown
+* 🐍 **Python Ecosystem:** Backend Automation, LLM API Workflows, Cloud Functions, Desktop Software (PyQt6).
+* ⚡ **Web & Full-Stack:** TypeScript, React 19, Next.js, Tailwind CSS, Vite, Node.js, REST APIs, JSON-LD SEO.
+* 📱 **Mobile Engineering:** Android Native, Jetpack Compose, Kotlin, Material 3, Room Database, MVVM Architecture.
+* ☁️ **Cloud, DB & DevOps:** Firebase Firestore (Security Rules & Realtime Sync), Vercel Edge Serverless, Git & GitHub.
 
 ---
 
-### 🌟 Featured Repositories
+### 🌟 Featured Projects & Engineering Impact
 
-| Project | Tech Stack | Description |
-| :--- | :--- | :--- |
-| 📸 **[Lensdrop](https://github.com/princeraj-in/Lensdrop)** | React 19, TypeScript, Firebase | QR-based instant wedding & event photo collective platform. |
-| 📍 **[City Helpline](https://github.com/princeraj-in/City-Helpline)** | TypeScript, React, Tailwind | Hyper-local student utility & accommodation discovery ecosystem. |
-| ⚡ **[Developer Portfolio](https://github.com/princeraj-in/Portfolio-prince-raj)** | React, Vite, Liquid Glass UI | Futuristic personal AI developer platform with interactive elements. |
+#### 📸 [Lensdrop](https://github.com/princeraj-in/Lensdrop) — *QR-Based Event & Wedding Photo Collective*
+* **The Problem:** Collecting high-resolution photos from dozens of event guests is typically fragmented across messaging apps with compression loss.
+* **Engineering Solution:** A frictionless web platform where guests scan an event-specific QR code to upload memories directly from their camera without installing any native app.
+* **Key Architecture:** Built with React 19, TypeScript, and Firebase Firestore. Implements role-based access control, realtime thumbnail grids, and automated cloud storage sync.
+* **Status:** Open Source • MIT License • Production Ready
+
+#### 📍 [City Helpline](https://github.com/princeraj-in/City-Helpline) — *Hyper-Local Student Utility & Living Ecosystem*
+* **The Problem:** Students moving to new cities struggle to locate verified PGs, hostels, libraries, and mess facilities.
+* **Engineering Solution:** A comprehensive discovery portal featuring verified merchant listings, user reviews, dynamic category filtering, and location-based sorting.
+* **Key Architecture:** TypeScript, React, Tailwind CSS, and Firestore DB. Includes contributor submission workflows, admin approval dashboards, and granular permission rules.
+* **Status:** Open Source • MIT License • Clean Issue Tracker
+
+#### ⚡ [Developer Portfolio (ImPrince Tectra)](https://github.com/princeraj-in/Portfolio-prince-raj) — *AI Developer Showcase*
+* **Engineering Solution:** Production web platform showcasing autonomous AI systems and software architectures with liquid glass UI effects and fluid animations.
+* **Key Architecture:** React, Vite, Tailwind CSS, and Vercel serverless functions with integrated Gemini LLM chat capabilities.
+* **Live Deployment:** [https://imprince.me](https://imprince.me)
 
 ---
 
