@@ -20,13 +20,6 @@
 
 ---
 
-### 🏆 GitHub Achievements & Trophies
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=princeraj-in&theme=onedark&no-frame=true&column=6&margin-w=4" alt="GitHub Trophies" />
-</p>
-
----
-
 ### 🛠️ Languages & Tech Stack
 
 <p align="center">
@@ -35,11 +28,11 @@
   </a>
 </p>
 
-#### Core Stack Breakdown
-* **Languages:** Python, TypeScript, JavaScript, Kotlin
-* **AI & Machine Learning:** LLM Integrations, Autonomous Systems, Prompt Engineering, RESTful APIs
-* **Frontend & Mobile:** React, Next.js, Tailwind CSS, Android (Jetpack Compose), Vite
-* **Backend & Cloud:** Node.js, Firebase, Firestore, Vercel Serverless Functions, Git & GitHub
+#### Core Specializations
+* 🐍 **Python Ecosystem:** Backend Automation, LLM Agent Workflows, Cloud API Integrations
+* ⚡ **Web & Full-Stack:** TypeScript, React, Next.js, Tailwind CSS, Vite, Node.js
+* 📱 **Mobile Development:** Android Native, Jetpack Compose, Kotlin
+* ☁️ **Cloud & Storage:** Firebase Firestore, Vercel Serverless, Git & GitHub Version Control
 
 ---
 
