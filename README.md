@@ -77,6 +77,26 @@ I am a **Full-Stack Software Engineer & AI Systems Developer** based in Delhi, I
 * **Key Architecture:** Built with React 19, TypeScript, and Firebase Firestore. Implements role-based access control, realtime thumbnail grids, and automated cloud storage sync.
 * **Status:** Open Source • MIT License • Production Ready
 
+```mermaid
+flowchart LR
+  subgraph Client [Client Side]
+    A[📱 Guest Scans QR] --> B[⚡ React 19 PWA]
+  end
+
+  subgraph Cloud [Firebase & Cloud Infrastructure]
+    B -->|P2P Chunk Upload| C[(Cloud Storage)]
+    C -->|Trigger Function| D[🔥 Firestore DB]
+  end
+
+  subgraph Presentation [Real-Time Sync]
+    D -->|Snapshot Listener| E[🖼️ Live Event Grid]
+  end
+
+  style Client fill:#0f172a,stroke:#38bdf8,stroke-width:1.5px,color:#f8fafc
+  style Cloud fill:#0f172a,stroke:#818cf8,stroke-width:1.5px,color:#f8fafc
+  style Presentation fill:#0f172a,stroke:#34d399,stroke-width:1.5px,color:#f8fafc
+```
+
 #### 📍 [City Helpline](https://github.com/princeraj-in/City-Helpline) — *Hyper-Local Student Utility & Living Ecosystem*
 * **The Problem:** Students moving to new cities struggle to locate verified PGs, hostels, libraries, mess services, and coaching centers.
 * **Engineering Solution:** A comprehensive discovery portal featuring verified merchant listings, user reviews, dynamic category filtering, and location-based sorting.
@@ -87,6 +107,15 @@ I am a **Full-Stack Software Engineer & AI Systems Developer** based in Delhi, I
 * **Engineering Solution:** Production web platform showcasing autonomous AI systems and software architectures with liquid glass UI effects and fluid animations.
 * **Key Architecture:** React, Vite, Tailwind CSS, and Vercel serverless functions with integrated Gemini LLM chat capabilities.
 * **Live Deployment:** [https://imprince.me](https://imprince.me)
+
+---
+
+### 🤝 Engineering Collaboration & Connect
+
+> I am open to software engineering opportunities, autonomous AI agent development, and high-impact full-stack products.  
+> ✉️ **Direct Email:** [Developer@imprince.me](mailto:Developer@imprince.me)  
+> 🌐 **Portfolio & Case Studies:** [imprince.me](https://imprince.me)  
+> 💼 **LinkedIn:** [linkedin.com/in/princeraj-in](https://www.linkedin.com/in/princeraj-in/)
 
 ---
 
