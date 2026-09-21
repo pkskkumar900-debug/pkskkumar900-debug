@@ -45,8 +45,7 @@ I am a **Full-Stack Software Engineer & AI Systems Developer** based in Delhi, I
 </p>
 
 | 📊 Metric | 📈 Status / Level | 🔍 Focus Area |
-| :--- | :--- | :--- |
-| 🚀 **Active Production Apps** | 3 Live Deployed Applications | Full-Stack Web, PWA, & Mobile Interfaces |
+| :--- | :--- | :--- |\n| 🚀 **Active Production Apps** | 3 Live Deployed Applications | Full-Stack Web, PWA, & Mobile Interfaces |
 | 📦 **Open-Source Repositories** | 5 Repositories with MIT Licenses | Community-friendly, well-documented codebases |
 | ⚡ **Total Git Activity** | 88+ Contributions in 2026 | Active feature development & architecture refactoring |
 | 🌐 **Primary Apex Domain** | [imprince.me](https://imprince.me) | Vercel Edge hosting & DNS configuration |
@@ -77,25 +76,11 @@ I am a **Full-Stack Software Engineer & AI Systems Developer** based in Delhi, I
 * **Key Architecture:** Built with React 19, TypeScript, and Firebase Firestore. Implements role-based access control, realtime thumbnail grids, and automated cloud storage sync.
 * **Status:** Open Source • MIT License • Production Ready
 
-```mermaid
-flowchart LR
-  subgraph Client [Client Side]
-    A[📱 Guest Scans QR] --> B[⚡ React 19 PWA]
-  end
-
-  subgraph Cloud [Firebase & Cloud Infrastructure]
-    B -->|P2P Chunk Upload| C[(Cloud Storage)]
-    C -->|Trigger Function| D[🔥 Firestore DB]
-  end
-
-  subgraph Presentation [Real-Time Sync]
-    D -->|Snapshot Listener| E[🖼️ Live Event Grid]
-  end
-
-  style Client fill:#0f172a,stroke:#38bdf8,stroke-width:1.5px,color:#f8fafc
-  style Cloud fill:#0f172a,stroke:#818cf8,stroke-width:1.5px,color:#f8fafc
-  style Presentation fill:#0f172a,stroke:#34d399,stroke-width:1.5px,color:#f8fafc
-```
+<p align="center">
+  <a href="https://github.com/princeraj-in/Lensdrop">
+    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/lensdrop-architecture.svg" alt="Lensdrop System Architecture & Data Pipeline" width="100%" />
+  </a>
+</p>
 
 #### 📍 [City Helpline](https://github.com/princeraj-in/City-Helpline) — *Hyper-Local Student Utility & Living Ecosystem*
 * **The Problem:** Students moving to new cities struggle to locate verified PGs, hostels, libraries, mess services, and coaching centers.
