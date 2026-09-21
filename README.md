@@ -10,16 +10,16 @@
   </a>
 </p>
 
-<!-- FLOATING SOCIAL & CONTACT ICONS -->
+<!-- 3D DARK FLOATING SOCIAL & CONTACT LOGOS -->
 <p align="center">
-  <a href="https://imprince.me" target="_blank" title="Personal Website">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/web.svg" alt="portfolio" height="32" width="42" />
-  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/princeraj-in/" target="_blank" title="LinkedIn">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin" height="32" width="42" />
-  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:Developer@imprince.me" title="Work Email">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/gmail.svg" alt="email" height="32" width="42" />
+  <a href="https://imprince.me" target="_blank" rel="noreferrer" title="Portfolio | imprince.me">
+    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/portfolio-3d.svg" alt="Portfolio" width="56" height="56" />
+  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/princeraj-in/" target="_blank" rel="noreferrer" title="LinkedIn | Prince Raj">
+    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/linkedin-3d.svg" alt="LinkedIn" width="56" height="56" />
+  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:Developer@imprince.me" title="Work Email | Developer@imprince.me">
+    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/email-3d.svg" alt="Email" width="56" height="56" />
   </a>
 </p>
 
@@ -78,7 +78,7 @@ I am a **Full-Stack Software Engineer & AI Systems Developer** based in Delhi, I
 * **Status:** Open Source • MIT License • Production Ready
 
 #### 📍 [City Helpline](https://github.com/princeraj-in/City-Helpline) — *Hyper-Local Student Utility & Living Ecosystem*
-* **The Problem:** Students moving to new cities struggle to locate verified PGs, hostels, libraries, and mess facilities.
+* **The Problem:** Students moving to new cities struggle to locate verified PGs, hostels, libraries, mess services, and coaching centers.
 * **Engineering Solution:** A comprehensive discovery portal featuring verified merchant listings, user reviews, dynamic category filtering, and location-based sorting.
 * **Key Architecture:** TypeScript, React, Tailwind CSS, and Firestore DB. Includes contributor submission workflows, admin approval dashboards, and granular permission rules.
 * **Status:** Open Source • MIT License • Clean Issue Tracker
