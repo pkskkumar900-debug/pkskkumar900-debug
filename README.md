@@ -10,12 +10,17 @@
   </a>
 </p>
 
-<!-- SOCIAL & CONTACT BADGES -->
+<!-- FLOATING SOCIAL & CONTACT ICONS -->
 <p align="center">
-  <a href="https://imprince.me"><img src="https://img.shields.io/badge/Portfolio-imprince.me-000000?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/princeraj-in/"><img src="https://img.shields.io/badge/LinkedIn-Prince_Raj-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:Developer@imprince.me"><img src="https://img.shields.io/badge/Email-Developer%40imprince.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="mailto:kusprince.raj@gmail.com"><img src="https://img.shields.io/badge/Personal-kusprince.raj%40gmail.com-34A853?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://imprince.me" target="_blank" title="Personal Website">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/web.svg" alt="portfolio" height="32" width="42" />
+  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/princeraj-in/" target="_blank" title="LinkedIn">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin" height="32" width="42" />
+  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:Developer@imprince.me" title="Work Email">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/gmail.svg" alt="email" height="32" width="42" />
+  </a>
 </p>
 
 ---
