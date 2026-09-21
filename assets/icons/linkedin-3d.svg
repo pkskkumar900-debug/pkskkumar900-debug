@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <!-- Ambient & Drop Shadows for 3D Floating Effect -->
+    <filter id="li-float-shadow" x="-30%" y="-20%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="16" stdDeviation="12" flood-color="#000000" flood-opacity="0.75" />
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#0077B5" flood-opacity="0.3" />
+    </filter>
+
+    <radialGradient id="li-glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#0A66C2" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#004182" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Dark 3D Floating Squircle Tile -->
+    <linearGradient id="li-tile-body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B2230" />
+      <stop offset="50%" stop-color="#10141E" />
+      <stop offset="100%" stop-color="#080B12" />
+    </linearGradient>
+
+    <!-- Top-down Specular Bevel Border -->
+    <linearGradient id="li-bevel-stroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA" stop-opacity="0.85" />
+      <stop offset="40%" stop-color="#1D4ED8" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- 3D Inner Badge Base Gradient -->
+    <linearGradient id="li-inner-base" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A66C2" />
+      <stop offset="50%" stop-color="#004182" />
+      <stop offset="100%" stop-color="#002952" />
+    </linearGradient>
+
+    <linearGradient id="li-inner-stroke" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#93C5FD" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#004182" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Text Emboss Filter -->
+    <filter id="emboss" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2.5" stdDeviation="1" flood-color="#001F3F" flood-opacity="0.8" />
+    </filter>
+  </defs>
+
+  <!-- Background Ambient Glow -->
+  <circle cx="60" cy="55" r="48" fill="url(#li-glow)" />
+
+  <!-- 3D Floating Base Squircle Tile -->
+  <rect x="12" y="10" width="96" height="96" rx="26" fill="url(#li-tile-body)" filter="url(#li-float-shadow)" stroke="url(#li-bevel-stroke)" stroke-width="1.8" />
+
+  <!-- Subtle Inner Glass Curve -->
+  <path d="M 14 36 C 14 22, 24 12, 38 12 L 82 12 C 96 12, 106 22, 106 36 C 75 42, 45 40, 14 36 Z" fill="#FFFFFF" opacity="0.04" />
+
+  <!-- 3D Elevated LinkedIn Badge -->
+  <!-- Badge Cast Shadow -->
+  <rect x="34" y="36" width="52" height="52" rx="14" fill="#000000" opacity="0.4" transform="translate(0, 4)" />
+  <!-- Badge Body -->
+  <rect x="34" y="34" width="52" height="52" rx="14" fill="url(#li-inner-base)" stroke="url(#li-inner-stroke)" stroke-width="1.5" />
+
+  <!-- Specular Reflection on Badge -->
+  <path d="M 35 44 C 35 38, 38 35, 46 35 L 74 35 C 82 35, 85 38, 85 44 C 65 47, 50 46, 35 44 Z" fill="#FFFFFF" opacity="0.25" />
+
+  <!-- Embossed 3D LinkedIn "in" Monogram -->
+  <g fill="#FFFFFF" filter="url(#emboss)">
+    <!-- 'i' dot -->
+    <circle cx="47.5" cy="46" r="3.2" />
+    <!-- 'i' bar -->
+    <rect x="44.6" y="52" width="5.8" height="18" rx="1.8" />
+    <!-- 'n' shape -->
+    <path d="M 56 52 L 61.5 52 L 61.5 55.2 C 63 52.8 66 51.4 70 51.4 C 76 51.4 78.5 55 78.5 61.5 L 78.5 70 L 72.8 70 L 72.8 62.4 C 72.8 58.5 71.5 56.6 68.2 56.6 C 64.6 56.6 61.8 58.8 61.8 63.5 L 61.8 70 L 56 70 Z" />
+  </g>
+</svg>

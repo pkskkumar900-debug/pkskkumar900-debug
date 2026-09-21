@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <!-- Ambient & Drop Shadows for 3D Floating Effect -->
+    <filter id="float-shadow" x="-30%" y="-20%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="16" stdDeviation="12" flood-color="#000000" flood-opacity="0.75" />
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#00E5FF" flood-opacity="0.25" />
+    </filter>
+    
+    <radialGradient id="portfolio-glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#0052D4" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Dark 3D Floating Squircle Tile -->
+    <linearGradient id="tile-body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E2330" />
+      <stop offset="50%" stop-color="#12151E" />
+      <stop offset="100%" stop-color="#0A0C12" />
+    </linearGradient>
+
+    <!-- Top-down Specular Bevel Border -->
+    <linearGradient id="bevel-stroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8" />
+      <stop offset="40%" stop-color="#1E293B" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- 3D Globe Sphere Gradients -->
+    <radialGradient id="sphere-fill" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="45%" stop-color="#0284C7" />
+      <stop offset="85%" stop-color="#034574" />
+      <stop offset="100%" stop-color="#021E36" />
+    </radialGradient>
+
+    <radialGradient id="sphere-highlight" cx="30%" cy="25%" r="45%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.7" />
+      <stop offset="60%" stop-color="#38BDF8" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Orbital Ring Gradient -->
+    <linearGradient id="ring-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#0284C7" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.9" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Ambient Glow -->
+  <circle cx="60" cy="55" r="48" fill="url(#portfolio-glow)" />
+
+  <!-- 3D Floating Base Squircle Tile -->
+  <rect x="12" y="10" width="96" height="96" rx="26" fill="url(#tile-body)" filter="url(#float-shadow)" stroke="url(#bevel-stroke)" stroke-width="1.8" />
+  
+  <!-- Subtle Inner Glass Curve -->
+  <path d="M 14 36 C 14 22, 24 12, 38 12 L 82 12 C 96 12, 106 22, 106 36 C 75 42, 45 40, 14 36 Z" fill="#FFFFFF" opacity="0.04" />
+
+  <!-- 3D Back of Orbital Ring -->
+  <ellipse cx="60" cy="58" rx="34" ry="11" fill="none" stroke="url(#ring-grad)" stroke-width="3" stroke-dasharray="55 55" stroke-dashoffset="28" opacity="0.6" transform="rotate(-20 60 58)" />
+
+  <!-- 3D Central Sphere (Globe) -->
+  <circle cx="60" cy="58" r="22" fill="url(#sphere-fill)" />
+  
+  <!-- Globe Grid Lines (3D Curvature) -->
+  <ellipse cx="60" cy="58" rx="10" ry="22" fill="none" stroke="#BAE6FD" stroke-width="1.2" opacity="0.45" />
+  <ellipse cx="60" cy="58" rx="18" ry="22" fill="none" stroke="#BAE6FD" stroke-width="1.2" opacity="0.3" />
+  <line x1="60" y1="36" x2="60" y2="80" stroke="#BAE6FD" stroke-width="1.2" opacity="0.4" />
+  <ellipse cx="60" cy="58" rx="22" ry="8" fill="none" stroke="#BAE6FD" stroke-width="1.2" opacity="0.45" />
+  <line x1="38" y1="58" x2="82" y2="58" stroke="#BAE6FD" stroke-width="1.2" opacity="0.5" />
+
+  <!-- Specular 3D Light Reflection on Sphere -->
+  <circle cx="60" cy="58" r="22" fill="url(#sphere-highlight)" />
+  <ellipse cx="52" cy="48" rx="6" ry="3.5" fill="#FFFFFF" opacity="0.6" transform="rotate(-30 52 48)" />
+
+  <!-- 3D Front of Orbital Ring -->
+  <ellipse cx="60" cy="58" rx="34" ry="11" fill="none" stroke="url(#ring-grad)" stroke-width="3.5" stroke-dasharray="55 55" stroke-dashoffset="0" transform="rotate(-20 60 58)" />
+  
+  <!-- Small Satellite / Orbit Particle -->
+  <circle cx="90" cy="46" r="3.2" fill="#38BDF8" />
+</svg>

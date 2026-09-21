@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <!-- Ambient & Drop Shadows for 3D Floating Effect -->
+    <filter id="em-float-shadow" x="-30%" y="-20%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="16" stdDeviation="12" flood-color="#000000" flood-opacity="0.75" />
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#EA4335" flood-opacity="0.25" />
+    </filter>
+
+    <radialGradient id="em-glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#EA4335" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#991B1B" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Dark 3D Floating Squircle Tile -->
+    <linearGradient id="em-tile-body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241E22" />
+      <stop offset="50%" stop-color="#161215" />
+      <stop offset="100%" stop-color="#0D090B" />
+    </linearGradient>
+
+    <!-- Top-down Specular Bevel Border -->
+    <linearGradient id="em-bevel-stroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F87171" stop-opacity="0.8" />
+      <stop offset="40%" stop-color="#DC2626" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#1E1B1D" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Envelope Gradients -->
+    <linearGradient id="envelope-base" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2D323E" />
+      <stop offset="100%" stop-color="#1A1E29" />
+    </linearGradient>
+
+    <linearGradient id="envelope-flap" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5252" />
+      <stop offset="50%" stop-color="#EA4335" />
+      <stop offset="100%" stop-color="#C5221F" />
+    </linearGradient>
+
+    <linearGradient id="envelope-wing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EA4335" />
+      <stop offset="100%" stop-color="#B91C1C" />
+    </linearGradient>
+
+    <linearGradient id="letter-paper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+
+    <filter id="flap-shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Background Ambient Glow -->
+  <circle cx="60" cy="55" r="48" fill="url(#em-glow)" />
+
+  <!-- 3D Floating Base Squircle Tile -->
+  <rect x="12" y="10" width="96" height="96" rx="26" fill="url(#em-tile-body)" filter="url(#em-float-shadow)" stroke="url(#bevel-stroke)" stroke-width="1.8" />
+
+  <!-- Subtle Inner Glass Curve -->
+  <path d="M 14 36 C 14 22, 24 12, 38 12 L 82 12 C 96 12, 106 22, 106 36 C 75 42, 45 40, 14 36 Z" fill="#FFFFFF" opacity="0.04" />
+
+  <!-- 3D Floating Letter Emerging from Envelope -->
+  <rect x="36" y="32" width="48" height="26" rx="4" fill="url(#letter-paper)" />
+  <!-- Text lines on letter -->
+  <rect x="42" y="37" width="22" height="2" rx="1" fill="#94A3B8" />
+  <rect x="42" y="42" width="36" height="2" rx="1" fill="#CBD5E1" />
+  <rect x="42" y="47" width="28" height="2" rx="1" fill="#CBD5E1" />
+
+  <!-- Envelope Back Body -->
+  <rect x="30" y="44" width="60" height="38" rx="8" fill="url(#envelope-base)" stroke="#3B4252" stroke-width="1" />
+
+  <!-- Left/Right Side Folds -->
+  <path d="M 30 46 L 60 67 L 30 82 Z" fill="url(#envelope-wing)" opacity="0.9" />
+  <path d="M 90 46 L 60 67 L 90 82 Z" fill="url(#envelope-wing)" opacity="0.95" />
+
+  <!-- Bottom Fold -->
+  <path d="M 30 82 L 60 65 L 90 82 Z" fill="#991B1B" opacity="0.85" />
+
+  <!-- 3D Top Flap (Floating / Angled) -->
+  <path d="M 29 45 L 60 67 L 91 45 C 91 42, 88 40, 84 40 L 36 40 C 32 40, 29 42, 29 45 Z" fill="url(#envelope-flap)" filter="url(#flap-shadow)" stroke="#FECACA" stroke-width="0.8" />
+  
+  <!-- Specular Edge on Flap Fold -->
+  <line x1="32" y1="41" x2="88" y2="41" stroke="#FFFFFF" stroke-width="1" opacity="0.4" />
+</svg>
