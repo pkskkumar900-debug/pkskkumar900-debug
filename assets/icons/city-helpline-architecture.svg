@@ -1,0 +1,277 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 380" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="ch-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C15" />
+      <stop offset="50%" stop-color="#0D1322" />
+      <stop offset="100%" stop-color="#070A10" />
+    </linearGradient>
+
+    <!-- Card Backgrounds -->
+    <linearGradient id="ch-card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#162032" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Tier Box Gradients -->
+    <linearGradient id="ch-tier-client" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#0369A1" stop-opacity="0.04" />
+    </linearGradient>
+    <linearGradient id="ch-tier-cloud" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0.04" />
+    </linearGradient>
+    <linearGradient id="ch-tier-pres" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.04" />
+    </linearGradient>
+
+    <!-- Glowing Borders -->
+    <linearGradient id="ch-border-main" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0.4" />
+    </linearGradient>
+    <linearGradient id="ch-border-cyan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.3" />
+    </linearGradient>
+    <linearGradient id="ch-border-indigo" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0.3" />
+    </linearGradient>
+    <linearGradient id="ch-border-emerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="ch-glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0284C7" flood-opacity="0.25" />
+    </filter>
+    <filter id="ch-glow-indigo" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#6366F1" flood-opacity="0.25" />
+    </filter>
+    <filter id="ch-glow-emerald" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#10B981" flood-opacity="0.25" />
+    </filter>
+    <filter id="ch-card-shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+
+    <!-- Marker Arrowheads -->
+    <marker id="ch-arrow-cyan" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#38BDF8" />
+    </marker>
+    <marker id="ch-arrow-indigo" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#818CF8" />
+    </marker>
+    <marker id="ch-arrow-emerald" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#34D399" />
+    </marker>
+  </defs>
+
+  <style>
+    .ch-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; }
+    .ch-mono { font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .ch-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 600; fill: #F8FAFC; }
+    .ch-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; fill: #94A3B8; }
+    .ch-tag { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 9.5px; font-weight: 600; letter-spacing: 0.3px; }
+  </style>
+
+  <!-- Outer Canvas Card -->
+  <rect x="2" y="2" width="916" height="376" rx="16" fill="url(#ch-bg-grad)" stroke="url(#ch-border-main)" stroke-width="1.5" filter="url(#ch-card-shadow)" />
+
+  <!-- Grid Pattern Overlay -->
+  <g opacity="0.06">
+    <path d="M 0 45 L 920 45 M 0 90 L 920 90 M 0 135 L 920 135 M 0 180 L 920 180 M 0 225 L 920 225 M 0 270 L 920 270 M 0 315 L 920 315 M 0 360 L 920 360" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M 50 0 L 50 380 M 150 0 L 150 380 M 250 0 L 250 380 M 350 0 L 350 380 M 450 0 L 450 380 M 550 0 L 550 380 M 650 0 L 650 380 M 750 0 L 750 380 M 850 0 L 850 380" stroke="#FFFFFF" stroke-width="1" />
+  </g>
+
+  <!-- Header Bar -->
+  <g id="header">
+    <!-- Window Controls -->
+    <circle cx="28" cy="24" r="5" fill="#EF4444" />
+    <circle cx="44" cy="24" r="5" fill="#F59E0B" />
+    <circle cx="60" cy="24" r="5" fill="#10B981" />
+
+    <!-- Diagram Title -->
+    <text x="85" y="28" class="ch-mono" font-size="12" font-weight="700" fill="#E2E8F0" letter-spacing="1">CITY HELPLINE // STUDENT DISCOVERY &amp; MODERATION PIPELINE</text>
+
+    <!-- Top-Right Status Pills -->
+    <rect x="690" y="14" width="118" height="20" rx="10" fill="#0369A1" fill-opacity="0.3" stroke="#38BDF8" stroke-width="1" />
+    <circle cx="700" cy="24" r="3" fill="#38BDF8" />
+    <text x="708" y="27.5" class="ch-mono" font-size="9" font-weight="600" fill="#38BDF8">VERIFIED LIVING</text>
+
+    <rect x="818" y="14" width="82" height="20" rx="10" fill="#065F46" fill-opacity="0.3" stroke="#34D399" stroke-width="1" />
+    <circle cx="828" cy="24" r="3" fill="#34D399" />
+    <text x="836" y="27.5" class="ch-mono" font-size="9" font-weight="600" fill="#34D399">ACTIVE PWA</text>
+  </g>
+
+  <line x1="2" y1="44" x2="918" y2="44" stroke="#1E293B" stroke-width="1" />
+
+  <!-- ==================== TIER 1: CLIENT PORTAL ==================== -->
+  <g id="tier-1">
+    <!-- Zone Container -->
+    <rect x="20" y="58" width="260" height="302" rx="12" fill="url(#ch-tier-client)" stroke="#0284C7" stroke-opacity="0.25" stroke-width="1.2" />
+    <rect x="32" y="70" width="162" height="22" rx="6" fill="#0369A1" fill-opacity="0.4" stroke="#38BDF8" stroke-width="1" />
+    <text x="40" y="85" class="ch-mono" font-size="10" font-weight="700" fill="#38BDF8" letter-spacing="0.5">STAGE 01 // CLIENT APPS</text>
+
+    <!-- Node 1A: Student Discovery Engine -->
+    <g filter="url(#ch-glow-cyan)">
+      <rect x="36" y="106" width="228" height="92" rx="10" fill="url(#ch-card-grad)" stroke="url(#ch-border-cyan)" stroke-width="1.4" />
+      <!-- Icon: Search / Map Pin -->
+      <rect x="50" y="120" width="36" height="36" rx="8" fill="#0284C7" fill-opacity="0.25" stroke="#38BDF8" stroke-width="1" />
+      <circle cx="66" cy="136" r="6" fill="none" stroke="#38BDF8" stroke-width="1.8" />
+      <line x1="71" y1="141" x2="78" y2="148" stroke="#38BDF8" stroke-width="1.8" stroke-linecap="round" />
+      
+      <text x="96" y="134" class="ch-label">Student Discovery UI</text>
+      <text x="96" y="150" class="ch-sub">PG, Mess, Library &amp; Coaching</text>
+      <text x="96" y="164" class="ch-sub">Locality &amp; budget filter engine</text>
+
+      <!-- Pill -->
+      <rect x="50" y="168" width="94" height="18" rx="4" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="0.8" />
+      <text x="56" y="180.5" class="ch-tag" fill="#7DD3FC">REACT 19 + VITE</text>
+    </g>
+
+    <!-- Intra-Tier Connector 1A -> 1B -->
+    <line x1="150" y1="198" x2="150" y2="230" stroke="#38BDF8" stroke-width="2" stroke-dasharray="3,3" marker-end="url(#ch-arrow-cyan)" />
+
+    <!-- Node 1B: Contributor Onboarding -->
+    <g filter="url(#ch-glow-cyan)">
+      <rect x="36" y="234" width="228" height="110" rx="10" fill="url(#ch-card-grad)" stroke="url(#ch-border-cyan)" stroke-width="1.4" />
+      <!-- Icon: Form / Store Submission -->
+      <rect x="50" y="248" width="36" height="36" rx="8" fill="#0284C7" fill-opacity="0.25" stroke="#38BDF8" stroke-width="1" />
+      <path d="M60 258 h16 v16 h-16 z" fill="none" stroke="#38BDF8" stroke-width="1.6" rx="2" />
+      <path d="M64 263 h8 M64 267 h8 M64 271 h5" stroke="#38BDF8" stroke-width="1.4" stroke-linecap="round" />
+      
+      <text x="96" y="262" class="ch-label">Merchant Submission</text>
+      <text x="96" y="278" class="ch-sub">Multi-step listing onboarding</text>
+      <text x="96" y="292" class="ch-sub">Photo proof &amp; pricing details</text>
+
+      <!-- Badges -->
+      <rect x="50" y="306" width="94" height="18" rx="4" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="0.8" />
+      <text x="56" y="318.5" class="ch-tag" fill="#7DD3FC">STEPPER FORM</text>
+
+      <rect x="150" y="306" width="102" height="18" rx="4" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="0.8" />
+      <text x="156" y="318.5" class="ch-tag" fill="#7DD3FC">IMAGE UPLOAD</text>
+    </g>
+  </g>
+
+  <!-- Flow Connector: Client -> Backend -->
+  <g>
+    <path d="M 264 289 C 285 289, 290 152, 328 152" fill="none" stroke="#818CF8" stroke-width="2.2" stroke-dasharray="4,4" marker-end="url(#ch-arrow-indigo)" />
+    <!-- Connector Badge -->
+    <rect x="272" y="200" width="76" height="24" rx="6" fill="#0F172A" stroke="#818CF8" stroke-width="1.2" />
+    <text x="278" y="215" class="ch-mono" font-size="8.5" font-weight="700" fill="#A5B4FC">AUTH &amp; SYNC</text>
+  </g>
+
+  <!-- ==================== TIER 2: BACKEND & MODERATION ==================== -->
+  <g id="tier-2">
+    <!-- Zone Container -->
+    <rect x="330" y="58" width="270" height="302" rx="12" fill="url(#ch-tier-cloud)" stroke="#6366F1" stroke-opacity="0.25" stroke-width="1.2" />
+    <rect x="342" y="70" width="186" height="22" rx="6" fill="#4338CA" fill-opacity="0.4" stroke="#818CF8" stroke-width="1" />
+    <text x="350" y="85" class="ch-mono" font-size="10" font-weight="700" fill="#A5B4FC" letter-spacing="0.5">STAGE 02 // BACKEND &amp; RULES</text>
+
+    <!-- Node 2A: Firestore NoSQL Vault -->
+    <g filter="url(#ch-glow-indigo)">
+      <rect x="346" y="106" width="238" height="92" rx="10" fill="url(#ch-card-grad)" stroke="url(#ch-border-indigo)" stroke-width="1.4" />
+      <!-- Icon: Firestore Database -->
+      <rect x="360" y="120" width="36" height="36" rx="8" fill="#4F46E5" fill-opacity="0.25" stroke="#818CF8" stroke-width="1" />
+      <path d="M370 131 c0 -2.5 7 -4 16 -4 s16 1.5 16 4 v14 c0 2.5 -7 4 -16 4 s-16 -1.5 -16 -4 z" fill="none" stroke="#818CF8" stroke-width="1.8" />
+      <path d="M370 137 c0 2.5 7 4 16 4 s16 -1.5 16 -4" fill="none" stroke="#818CF8" stroke-width="1.8" />
+      <path d="M370 143 c0 2.5 7 4 16 4 s16 -1.5 16 -4" fill="none" stroke="#818CF8" stroke-width="1.8" />
+
+      <text x="406" y="134" class="ch-label">Firestore Collections</text>
+      <text x="406" y="150" class="ch-sub">listings / reviews / users</text>
+      <text x="406" y="164" class="ch-sub">Compound indexing &amp; filters</text>
+
+      <!-- Pill -->
+      <rect x="360" y="168" width="102" height="18" rx="4" fill="#0F172A" stroke="#818CF8" stroke-opacity="0.4" stroke-width="0.8" />
+      <text x="366" y="180.5" class="ch-tag" fill="#C7D2FE">NOSQL SCHEMA</text>
+    </g>
+
+    <!-- Intra-Tier Connector 2A -> 2B -->
+    <g>
+      <line x1="465" y1="198" x2="465" y2="230" stroke="#818CF8" stroke-width="2" marker-end="url(#ch-arrow-indigo)" />
+      <rect x="473" y="206" width="94" height="18" rx="4" fill="#0F172A" stroke="#818CF8" stroke-width="0.8" />
+      <text x="478" y="218.5" class="ch-mono" font-size="8" font-weight="600" fill="#A5B4FC">RBAC VERIFY</text>
+    </g>
+
+    <!-- Node 2B: Admin Moderation Engine -->
+    <g filter="url(#ch-glow-indigo)">
+      <rect x="346" y="234" width="238" height="110" rx="10" fill="url(#ch-card-grad)" stroke="url(#ch-border-indigo)" stroke-width="1.4" />
+      <!-- Icon: Shield / Checkmark -->
+      <rect x="360" y="248" width="36" height="36" rx="8" fill="#4338CA" fill-opacity="0.3" stroke="#818CF8" stroke-width="1" />
+      <path d="M378 254 L388 258 L388 268 C388 275 378 280 378 280 C378 280 368 275 368 268 L368 258 Z" fill="none" stroke="#818CF8" stroke-width="1.8" />
+      <path d="M373 267 l3 3 l6 -6" fill="none" stroke="#818CF8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+
+      <text x="406" y="262" class="ch-label">Admin Control Console</text>
+      <text x="406" y="278" class="ch-sub">Verification &amp; spam audit queue</text>
+      <text x="406" y="292" class="ch-sub">Pending ➔ Approved state gate</text>
+
+      <!-- Badges -->
+      <rect x="360" y="306" width="102" height="18" rx="4" fill="#0F172A" stroke="#818CF8" stroke-opacity="0.4" stroke-width="0.8" />
+      <text x="366" y="318.5" class="ch-tag" fill="#C7D2FE">APPROVAL GATE</text>
+
+      <rect x="468" y="306" width="102" height="18" rx="4" fill="#0F172A" stroke="#818CF8" stroke-opacity="0.4" stroke-width="0.8" />
+      <text x="474" y="318.5" class="ch-tag" fill="#C7D2FE">RBAC SECURITY</text>
+    </g>
+  </g>
+
+  <!-- Flow Connector: Backend -> Presentation -->
+  <g>
+    <path d="M 584 289 C 605 289, 610 152, 648 152" fill="none" stroke="#34D399" stroke-width="2.2" stroke-dasharray="4,4" marker-end="url(#ch-arrow-emerald)" />
+    <!-- Connector Badge -->
+    <rect x="590" y="200" width="88" height="24" rx="6" fill="#0F172A" stroke="#34D399" stroke-width="1.2" />
+    <text x="595" y="215" class="ch-mono" font-size="8.5" font-weight="700" fill="#6EE7B7">VERIFIED FEED</text>
+  </g>
+
+  <!-- ==================== TIER 3: ENGAGEMENT & CONNECT ==================== -->
+  <g id="tier-3">
+    <!-- Zone Container -->
+    <rect x="650" y="58" width="250" height="302" rx="12" fill="url(#ch-tier-pres)" stroke="#10B981" stroke-opacity="0.25" stroke-width="1.2" />
+    <rect x="662" y="70" width="170" height="22" rx="6" fill="#065F46" fill-opacity="0.4" stroke="#34D399" stroke-width="1" />
+    <text x="670" y="85" class="ch-mono" font-size="10" font-weight="700" fill="#6EE7B7" letter-spacing="0.5">STAGE 03 // DIRECT CONNECT</text>
+
+    <!-- Node 3A: Verified Student Listings -->
+    <g filter="url(#ch-glow-emerald)">
+      <rect x="664" y="106" width="222" height="92" rx="10" fill="url(#ch-card-grad)" stroke="url(#ch-border-emerald)" stroke-width="1.4" />
+      <!-- Icon: Badge / Check Star -->
+      <rect x="678" y="120" width="36" height="36" rx="8" fill="#059669" fill-opacity="0.25" stroke="#34D399" stroke-width="1" />
+      <polygon points="696,126 700,134 708,135 702,141 704,149 696,144 688,149 690,141 684,135 692,134" fill="none" stroke="#34D399" stroke-width="1.6" />
+
+      <text x="724" y="134" class="ch-label">Verified Listings Hub</text>
+      <text x="724" y="150" class="ch-sub">Curated student living units</text>
+      <text x="724" y="164" class="ch-sub">Student reviews &amp; ratings</text>
+
+      <!-- Pill -->
+      <rect x="678" y="168" width="112" height="18" rx="4" fill="#0F172A" stroke="#34D399" stroke-opacity="0.4" stroke-width="0.8" />
+      <text x="684" y="180.5" class="ch-tag" fill="#A7F3D0">ZERO-BROKERAGE</text>
+    </g>
+
+    <!-- Intra-Tier Connector 3A -> 3B -->
+    <line x1="775" y1="198" x2="775" y2="230" stroke="#34D399" stroke-width="2" stroke-dasharray="3,3" marker-end="url(#ch-arrow-emerald)" />
+
+    <!-- Node 3B: 1-Tap Direct Merchant Connect -->
+    <g filter="url(#ch-glow-emerald)">
+      <rect x="664" y="234" width="222" height="110" rx="10" fill="url(#ch-card-grad)" stroke="url(#ch-border-emerald)" stroke-width="1.4" />
+      <!-- Icon: WhatsApp / Call / Map -->
+      <rect x="678" y="248" width="36" height="36" rx="8" fill="#059669" fill-opacity="0.25" stroke="#34D399" stroke-width="1" />
+      <path d="M689 257 c-4 0 -8 3.5 -8 8 c0 2 0.8 4 2 5.5 l-1.5 5.5 l5.5 -1.5 c1.5 1 3 1.5 4.5 1.5 c4.5 0 8 -3.5 8 -8 s-3.5 -8 -8 -8 z" fill="none" stroke="#34D399" stroke-width="1.6" />
+      <path d="M694 265 c0.5 1 1 1.5 2 1.5" stroke="#34D399" stroke-width="1.4" stroke-linecap="round" />
+
+      <text x="724" y="262" class="ch-label">1-Tap Direct Connect</text>
+      <text x="724" y="278" class="ch-sub">Instant WhatsApp &amp; Calling</text>
+      <text x="724" y="292" class="ch-sub">Google Maps navigation</text>
+
+      <!-- Badges -->
+      <rect x="678" y="306" width="94" height="18" rx="4" fill="#0F172A" stroke="#34D399" stroke-opacity="0.4" stroke-width="0.8" />
+      <text x="684" y="318.5" class="ch-tag" fill="#A7F3D0">WHATSAPP API</text>
+
+      <rect x="778" y="306" width="96" height="18" rx="4" fill="#0F172A" stroke="#34D399" stroke-opacity="0.4" stroke-width="0.8" />
+      <text x="784" y="318.5" class="ch-tag" fill="#A7F3D0">DIRECT CALL</text>
+    </g>
+  </g>
+</svg>

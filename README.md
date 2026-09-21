@@ -88,6 +88,12 @@ I am a **Full-Stack Software Engineer & AI Systems Developer** based in Delhi, I
 * **Key Architecture:** TypeScript, React, Tailwind CSS, and Firestore DB. Includes contributor submission workflows, admin approval dashboards, and granular permission rules.
 * **Status:** Open Source • MIT License • Clean Issue Tracker
 
+<p align="center">
+  <a href="https://github.com/princeraj-in/City-Helpline">
+    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/city-helpline-architecture.svg" alt="City Helpline System Architecture & Moderation Pipeline" width="100%" />
+  </a>
+</p>
+
 #### ⚡ [Developer Portfolio (ImPrince Tectra)](https://github.com/princeraj-in/Portfolio-prince-raj) — *AI Developer Showcase*
 * **Engineering Solution:** Production web platform showcasing autonomous AI systems and software architectures with liquid glass UI effects and fluid animations.
 * **Key Architecture:** React, Vite, Tailwind CSS, and Vercel serverless functions with integrated Gemini LLM chat capabilities.
