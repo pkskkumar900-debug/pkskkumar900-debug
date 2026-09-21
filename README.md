@@ -1,42 +1,59 @@
-# Hi there, I'm Prince Raj 👋
+<!-- HEADER BANNER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0052D4,50:4364F7,100:6FB1FC&height=180&section=header&text=Prince%20Raj&fontSize=45&fontColor=ffffff&animation=fadeIn" width="100%" />
+</p>
 
-Full-Stack Developer & AI Enthusiast passionate about building high-performance web applications, scalable digital platforms, and modern user experiences.
+<!-- DYNAMIC TYPING ANIMATION -->
+<p align="center">
+  <a href="https://imprince.me">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=22D3EE&center=true&vCenter=true&width=550&lines=Full-Stack+%26+AI+Developer;Python+%E2%80%A2+TypeScript+%E2%80%A2+React+%E2%80%A2+Next.js;Building+Autonomous+AI+Platforms;Android+%26+Mobile+App+Engineer;Explore+imprince.me" alt="Typing SVG" />
+  </a>
+</p>
 
----
-
-### 🌐 Connect & Contact
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-imprince.me-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://imprince.me)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Prince_Raj-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/princeraj-in/)
-[![Work Email](https://img.shields.io/badge/Email-Developer%40imprince.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Developer@imprince.me)
-[![Personal Email](https://img.shields.io/badge/Personal-kusprince.raj%40gmail.com-34A853?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kusprince.raj@gmail.com)
-
----
-
-### 🛠️ Tech Stack & Tools
-
-#### Languages & Core
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-
-#### Frontend & Mobile
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=android&logoColor=white)
-
-#### DevOps & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+<!-- QUICK SOCIAL BADGES -->
+<p align="center">
+  <a href="https://imprince.me"><img src="https://img.shields.io/badge/Portfolio-imprince.me-000000?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/princeraj-in/"><img src="https://img.shields.io/badge/LinkedIn-Prince_Raj-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:Developer@imprince.me"><img src="https://img.shields.io/badge/Email-Developer%40imprince.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:kusprince.raj@gmail.com"><img src="https://img.shields.io/badge/Personal-kusprince.raj%40gmail.com-34A853?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
 
 ---
 
-### 🌟 Featured Projects
+### 🏆 GitHub Achievements & Trophies
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=princeraj-in&theme=onedark&no-frame=true&column=6&margin-w=4" alt="GitHub Trophies" />
+</p>
 
-- **[Lensdrop](https://github.com/pkskkumar900-debug/Lensdrop):** Instantly share event and wedding photos with a simple QR code scan. Fast, private, and hassle-free memory collection.
-- **[City Helpline](https://github.com/pkskkumar900-debug/City-Helpline-):** Discovery portal helping students easily find verified PGs, hostels, libraries, mess services, and coaching centers.
-- **[Developer Portfolio](https://github.com/pkskkumar900-debug/Portfolio-prince-raj):** AI developer portfolio featuring modern UI, fluid animations, and interactive elements.
+---
+
+### 🛠️ Languages & Tech Stack
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,ts,js,kotlin,react,nextjs,tailwind,androidstudio,nodejs,vite,git,github,firebase,vercel" />
+  </a>
+</p>
+
+#### Core Stack Breakdown
+* **Languages:** Python, TypeScript, JavaScript, Kotlin
+* **AI & Machine Learning:** LLM Integrations, Autonomous Systems, Prompt Engineering, RESTful APIs
+* **Frontend & Mobile:** React, Next.js, Tailwind CSS, Android (Jetpack Compose), Vite
+* **Backend & Cloud:** Node.js, Firebase, Firestore, Vercel Serverless Functions, Git & GitHub
+
+---
+
+### 🌟 Featured Repositories
+
+| Project | Tech Stack | Description |
+| :--- | :--- | :--- |
+| 📸 **[Lensdrop](https://github.com/princeraj-in/Lensdrop)** | React 19, TypeScript, Firebase | QR-based instant wedding & event photo collective platform. |
+| 📍 **[City Helpline](https://github.com/princeraj-in/City-Helpline)** | TypeScript, React, Tailwind | Hyper-local student utility & accommodation discovery ecosystem. |
+| ⚡ **[Developer Portfolio](https://github.com/princeraj-in/Portfolio-prince-raj)** | React, Vite, Liquid Glass UI | Futuristic personal AI developer platform with interactive elements. |
+
+---
+
+<!-- FOOTER BANNER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0052D4,50:4364F7,100:6FB1FC&height=100&section=footer" width="100%" />
+</p>
