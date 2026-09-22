@@ -13,13 +13,13 @@
 <!-- 3D DARK FLOATING SOCIAL & CONTACT LOGOS -->
 <p align="center">
   <a href="https://imprince.me" target="_blank" rel="noreferrer" title="Portfolio | imprince.me">
-    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/portfolio-3d.svg" alt="Portfolio" width="56" height="56" />
+    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/portfolio-3d.svg" alt="Portfolio" width="52" height="52" />
   </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/princeraj-in/" target="_blank" rel="noreferrer" title="LinkedIn | Prince Raj">
-    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/linkedin-3d.svg" alt="LinkedIn" width="56" height="56" />
+    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/linkedin-3d.svg" alt="LinkedIn" width="52" height="52" />
   </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="mailto:Developer@imprince.me" title="Work Email | Developer@imprince.me">
-    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/email-3d.svg" alt="Email" width="56" height="56" />
+    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/email-3d.svg" alt="Email" width="52" height="52" />
   </a>
 </p>
 
@@ -45,9 +45,10 @@ I am a **Full-Stack Software Engineer & AI Systems Developer** based in Delhi, I
 </p>
 
 | 📊 Metric | 📈 Status / Level | 🔍 Focus Area |
-| :--- | :--- | :--- |\n| 🚀 **Active Production Apps** | 3 Live Deployed Applications | Full-Stack Web, PWA, & Mobile Interfaces |
+| :--- | :--- | :--- |
+| 🚀 **Active Production Apps** | 3 Live Deployed Applications | Full-Stack Web, PWA, & Mobile Interfaces |
 | 📦 **Open-Source Repositories** | 5 Repositories with MIT Licenses | Community-friendly, well-documented codebases |
-| ⚡ **Total Git Activity** | 88+ Contributions in 2026 | Active feature development & architecture refactoring |
+| 🤖 **AI & Autonomous Systems** | Production LLM Architectures | Google Gemini APIs, Agent Workflows & Tooling |
 | 🌐 **Primary Apex Domain** | [imprince.me](https://imprince.me) | Vercel Edge hosting & DNS configuration |
 
 ---
@@ -74,37 +75,46 @@ I am a **Full-Stack Software Engineer & AI Systems Developer** based in Delhi, I
 * **The Problem:** Collecting high-resolution photos from dozens of event guests is typically fragmented across messaging apps with compression loss.
 * **Engineering Solution:** A frictionless web platform where guests scan an event-specific QR code to upload memories directly from their camera without installing any native app.
 * **Key Architecture:** Built with React 19, TypeScript, and Firebase Firestore. Implements role-based access control, realtime thumbnail grids, and automated cloud storage sync.
-* **Status:** Open Source • MIT License • Production Ready
+* **Status:** Open Source • MIT License • [View Repository](https://github.com/princeraj-in/Lensdrop)
 
-<p align="center">
-  <a href="https://github.com/princeraj-in/Lensdrop">
-    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/lensdrop-architecture.svg" alt="Lensdrop System Architecture & Data Pipeline" width="100%" />
-  </a>
-</p>
+<details>
+  <summary>📐 <b>View System Architecture & Data Pipeline (Interactive SVG)</b></summary>
+  <br/>
+  <p align="center">
+    <a href="https://github.com/princeraj-in/Lensdrop">
+      <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/lensdrop-architecture.svg" alt="Lensdrop System Architecture & Data Pipeline" width="100%" />
+    </a>
+  </p>
+</details>
 
 #### 📍 [City Helpline](https://github.com/princeraj-in/City-Helpline) — *Hyper-Local Student Utility & Living Ecosystem*
 * **The Problem:** Students moving to new cities struggle to locate verified PGs, hostels, libraries, mess services, and coaching centers.
 * **Engineering Solution:** A comprehensive discovery portal featuring verified merchant listings, user reviews, dynamic category filtering, and location-based sorting.
 * **Key Architecture:** TypeScript, React, Tailwind CSS, and Firestore DB. Includes contributor submission workflows, admin approval dashboards, and granular permission rules.
-* **Status:** Open Source • MIT License • Clean Issue Tracker
+* **Status:** Open Source • MIT License • [View Repository](https://github.com/princeraj-in/City-Helpline)
 
-<p align="center">
-  <a href="https://github.com/princeraj-in/City-Helpline">
-    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/city-helpline-architecture.svg" alt="City Helpline System Architecture & Moderation Pipeline" width="100%" />
-  </a>
-</p>
+<details>
+  <summary>📐 <b>View System Architecture & Moderation Pipeline (Interactive SVG)</b></summary>
+  <br/>
+  <p align="center">
+    <a href="https://github.com/princeraj-in/City-Helpline">
+      <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/city-helpline-architecture.svg" alt="City Helpline System Architecture & Moderation Pipeline" width="100%" />
+    </a>
+  </p>
+</details>
 
 #### ⚡ [Developer Portfolio (ImPrince Tectra)](https://github.com/princeraj-in/Portfolio-prince-raj) — *AI Developer Showcase*
+* **The Problem:** Generic portfolio templates fail to showcase complex full-stack architectures and real-time AI capabilities interactively.
 * **Engineering Solution:** Production web platform showcasing autonomous AI systems and software architectures with liquid glass UI effects and fluid animations.
 * **Key Architecture:** React, Vite, Tailwind CSS, and Vercel serverless functions with integrated Gemini LLM chat capabilities.
-* **Live Deployment:** [https://imprince.me](https://imprince.me)
+* **Deployment & Source:** [Live Application (imprince.me)](https://imprince.me) • [GitHub Repository](https://github.com/princeraj-in/Portfolio-prince-raj)
 
 ---
 
 ### 🤝 Engineering Collaboration & Connect
 
 <p align="center">
-  <em>I am open to software engineering opportunities, autonomous AI agent development, and high-impact full-stack products.</em>
+  <em>Open to software engineering opportunities, autonomous AI agent development, and high-impact full-stack products.</em>
 </p>
 <br/>
 
