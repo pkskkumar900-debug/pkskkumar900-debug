@@ -46,7 +46,7 @@ I am a **Full-Stack Software Engineer & AI Systems Developer** based in Delhi, I
 
 | 📊 Metric | 📈 Status / Level | 🔍 Focus Area |
 | :--- | :--- | :--- |
-| 🚀 **Active Web Applications** | 3 Live Apps (2 in Beta) | [Lensdrop](https://lensdrop.imprince.me) • [City Helpline](https://app.imprince.me) • [imprince.me](https://imprince.me) |
+| 🚀 **Active Web Applications** | 3 Live Apps &nbsp; <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/badge-beta.svg" alt="Beta" height="16" align="center" /> | [Lensdrop](https://lensdrop.imprince.me) • [City Helpline](https://app.imprince.me) • [imprince.me](https://imprince.me) |
 | 📦 **Open-Source Repositories** | 5 Repositories with MIT Licenses | Community-friendly, well-documented codebases |
 | 🤖 **AI & Autonomous Systems** | Production LLM Architectures | Google Gemini APIs, Agent Workflows & Tooling |
 | 🌐 **Primary Apex Domain** | [imprince.me](https://imprince.me) | Vercel Edge hosting & DNS configuration |
@@ -71,11 +71,11 @@ I am a **Full-Stack Software Engineer & AI Systems Developer** based in Delhi, I
 
 ### 🌟 Featured Projects & Engineering Impact
 
-#### 📸 [Lensdrop](https://lensdrop.imprince.me) &nbsp; [![Beta Testing](https://img.shields.io/badge/Status-Beta%20Testing-f59e0b?style=flat-square)](https://lensdrop.imprince.me) — *QR-Based Event & Wedding Photo Collective*
+#### 📸 [Lensdrop](https://lensdrop.imprince.me) &nbsp; <a href="https://lensdrop.imprince.me" target="_blank"><img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/badge-beta.svg" alt="Beta" height="20" align="center" /></a> — *QR-Based Event & Wedding Photo Collective*
 * **The Problem:** Collecting high-resolution photos from dozens of event guests is typically fragmented across messaging apps with compression loss.
 * **Engineering Solution:** A frictionless web platform where guests scan an event-specific QR code to upload memories directly from their camera without installing any native app.
 * **Key Architecture:** Built with React 19, TypeScript, and Firebase Firestore. Implements role-based access control, realtime thumbnail grids, and automated cloud storage sync.
-* **Status:** Open Source • MIT License • ![Beta Testing](https://img.shields.io/badge/Release-Public%20Beta-f59e0b?style=flat-square)
+* **Status:** Open Source • MIT License • <a href="https://lensdrop.imprince.me" target="_blank"><img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/badge-beta.svg" alt="Beta" height="18" align="center" /></a>
 * **Access & Code:** [🚀 Launch Live App (lensdrop.imprince.me)](https://lensdrop.imprince.me) • [📦 GitHub Repository](https://github.com/princeraj-in/Lensdrop)
 
 <details>
@@ -91,11 +91,11 @@ I am a **Full-Stack Software Engineer & AI Systems Developer** based in Delhi, I
   </p>
 </details>
 
-#### 📍 [City Helpline](https://app.imprince.me) &nbsp; [![Beta Testing](https://img.shields.io/badge/Status-Beta%20Testing-f59e0b?style=flat-square)](https://app.imprince.me) — *Hyper-Local Student Utility & Living Ecosystem*
+#### 📍 [City Helpline](https://app.imprince.me) &nbsp; <a href="https://app.imprince.me" target="_blank"><img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/badge-beta.svg" alt="Beta" height="20" align="center" /></a> — *Hyper-Local Student Utility & Living Ecosystem*
 * **The Problem:** Students moving to new cities struggle to locate verified PGs, hostels, libraries, mess services, and coaching centers.
 * **Engineering Solution:** A comprehensive discovery portal featuring verified merchant listings, user reviews, dynamic category filtering, and location-based sorting.
 * **Key Architecture:** TypeScript, React, Tailwind CSS, and Firestore DB. Includes contributor submission workflows, admin approval dashboards, and granular permission rules.
-* **Status:** Open Source • MIT License • ![Beta Testing](https://img.shields.io/badge/Release-Public%20Beta-f59e0b?style=flat-square)
+* **Status:** Open Source • MIT License • <a href="https://app.imprince.me" target="_blank"><img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/badge-beta.svg" alt="Beta" height="18" align="center" /></a>
 * **Access & Code:** [🚀 Launch Live App (app.imprince.me)](https://app.imprince.me) • [📦 GitHub Repository](https://github.com/princeraj-in/City-Helpline)
 
 <details>
