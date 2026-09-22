@@ -46,7 +46,7 @@ I am a **Full-Stack Software Engineer & AI Systems Developer** based in Delhi, I
 
 | 📊 Metric | 📈 Status / Level | 🔍 Focus Area |
 | :--- | :--- | :--- |
-| 🚀 **Active Production Apps** | 3 Live Deployed Applications | Full-Stack Web, PWA, & Mobile Interfaces |
+| 🚀 **Active Web Applications** | 3 Live Apps (2 in Beta) | [Lensdrop](https://lensdrop.imprince.me) • [City Helpline](https://app.imprince.me) • [imprince.me](https://imprince.me) |
 | 📦 **Open-Source Repositories** | 5 Repositories with MIT Licenses | Community-friendly, well-documented codebases |
 | 🤖 **AI & Autonomous Systems** | Production LLM Architectures | Google Gemini APIs, Agent Workflows & Tooling |
 | 🌐 **Primary Apex Domain** | [imprince.me](https://imprince.me) | Vercel Edge hosting & DNS configuration |
@@ -71,43 +71,51 @@ I am a **Full-Stack Software Engineer & AI Systems Developer** based in Delhi, I
 
 ### 🌟 Featured Projects & Engineering Impact
 
-#### 📸 [Lensdrop](https://github.com/princeraj-in/Lensdrop) — *QR-Based Event & Wedding Photo Collective*
+#### 📸 [Lensdrop](https://lensdrop.imprince.me) &nbsp; [![Beta Testing](https://img.shields.io/badge/Status-Beta%20Testing-f59e0b?style=flat-square)](https://lensdrop.imprince.me) — *QR-Based Event & Wedding Photo Collective*
 * **The Problem:** Collecting high-resolution photos from dozens of event guests is typically fragmented across messaging apps with compression loss.
 * **Engineering Solution:** A frictionless web platform where guests scan an event-specific QR code to upload memories directly from their camera without installing any native app.
 * **Key Architecture:** Built with React 19, TypeScript, and Firebase Firestore. Implements role-based access control, realtime thumbnail grids, and automated cloud storage sync.
-* **Status:** Open Source • MIT License • [View Repository](https://github.com/princeraj-in/Lensdrop)
+* **Status:** Open Source • MIT License • ![Beta Testing](https://img.shields.io/badge/Release-Public%20Beta-f59e0b?style=flat-square)
+* **Access & Code:** [🚀 Launch Live App (lensdrop.imprince.me)](https://lensdrop.imprince.me) • [📦 GitHub Repository](https://github.com/princeraj-in/Lensdrop)
 
 <details>
   <summary>📐 <b>View System Architecture & Data Pipeline (Interactive SVG)</b></summary>
   <br/>
   <p align="center">
-    <a href="https://github.com/princeraj-in/Lensdrop">
+    <a href="https://lensdrop.imprince.me" target="_blank" rel="noreferrer">
       <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/lensdrop-architecture.svg" alt="Lensdrop System Architecture & Data Pipeline" width="100%" />
     </a>
   </p>
+  <p align="center">
+    <a href="https://lensdrop.imprince.me"><b>🔗 Launch Lensdrop Web App</b></a> &nbsp;•&nbsp; <a href="https://github.com/princeraj-in/Lensdrop"><b>📦 View Source Code</b></a>
+  </p>
 </details>
 
-#### 📍 [City Helpline](https://github.com/princeraj-in/City-Helpline) — *Hyper-Local Student Utility & Living Ecosystem*
+#### 📍 [City Helpline](https://app.imprince.me) &nbsp; [![Beta Testing](https://img.shields.io/badge/Status-Beta%20Testing-f59e0b?style=flat-square)](https://app.imprince.me) — *Hyper-Local Student Utility & Living Ecosystem*
 * **The Problem:** Students moving to new cities struggle to locate verified PGs, hostels, libraries, mess services, and coaching centers.
 * **Engineering Solution:** A comprehensive discovery portal featuring verified merchant listings, user reviews, dynamic category filtering, and location-based sorting.
 * **Key Architecture:** TypeScript, React, Tailwind CSS, and Firestore DB. Includes contributor submission workflows, admin approval dashboards, and granular permission rules.
-* **Status:** Open Source • MIT License • [View Repository](https://github.com/princeraj-in/City-Helpline)
+* **Status:** Open Source • MIT License • ![Beta Testing](https://img.shields.io/badge/Release-Public%20Beta-f59e0b?style=flat-square)
+* **Access & Code:** [🚀 Launch Live App (app.imprince.me)](https://app.imprince.me) • [📦 GitHub Repository](https://github.com/princeraj-in/City-Helpline)
 
 <details>
   <summary>📐 <b>View System Architecture & Moderation Pipeline (Interactive SVG)</b></summary>
   <br/>
   <p align="center">
-    <a href="https://github.com/princeraj-in/City-Helpline">
+    <a href="https://app.imprince.me" target="_blank" rel="noreferrer">
       <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/city-helpline-architecture.svg" alt="City Helpline System Architecture & Moderation Pipeline" width="100%" />
     </a>
   </p>
+  <p align="center">
+    <a href="https://app.imprince.me"><b>🔗 Launch City Helpline Web App</b></a> &nbsp;•&nbsp; <a href="https://github.com/princeraj-in/City-Helpline"><b>📦 View Source Code</b></a>
+  </p>
 </details>
 
-#### ⚡ [Developer Portfolio (ImPrince Tectra)](https://github.com/princeraj-in/Portfolio-prince-raj) — *AI Developer Showcase*
+#### ⚡ [Developer Portfolio (ImPrince Tectra)](https://imprince.me) — *AI Developer Showcase*
 * **The Problem:** Generic portfolio templates fail to showcase complex full-stack architectures and real-time AI capabilities interactively.
 * **Engineering Solution:** Production web platform showcasing autonomous AI systems and software architectures with liquid glass UI effects and fluid animations.
 * **Key Architecture:** React, Vite, Tailwind CSS, and Vercel serverless functions with integrated Gemini LLM chat capabilities.
-* **Deployment & Source:** [Live Application (imprince.me)](https://imprince.me) • [GitHub Repository](https://github.com/princeraj-in/Portfolio-prince-raj)
+* **Deployment & Source:** [🚀 Live Application (imprince.me)](https://imprince.me) • [📦 GitHub Repository](https://github.com/princeraj-in/Portfolio-prince-raj)
 
 ---
 
