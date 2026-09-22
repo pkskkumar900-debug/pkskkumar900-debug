@@ -10,19 +10,6 @@
   </a>
 </p>
 
-<!-- 3D DARK FLOATING SOCIAL & CONTACT LOGOS -->
-<p align="center">
-  <a href="https://imprince.me" target="_blank" rel="noreferrer" title="Portfolio | imprince.me">
-    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/portfolio-3d.svg" alt="Portfolio" width="52" height="52" />
-  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/princeraj-in/" target="_blank" rel="noreferrer" title="LinkedIn | Prince Raj">
-    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/linkedin-3d.svg" alt="LinkedIn" width="52" height="52" />
-  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:Developer@imprince.me" title="Work Email | Developer@imprince.me">
-    <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/email-3d.svg" alt="Email" width="52" height="52" />
-  </a>
-</p>
-
 ---
 
 ### 👨‍💻 About Me
@@ -119,14 +106,21 @@ I am a **Full-Stack Software Engineer & AI Systems Developer** based in Delhi, I
 
 ---
 
-### 🤝 Engineering Collaboration & Connect
+### 🤝 Let's Build Something Impactful
 
 <p align="center">
-  <em>Open to software engineering opportunities, autonomous AI agent development, and high-impact full-stack products.</em>
+  <b>🟢 Actively Open for Full-Stack & AI Systems Engineering Roles</b><br/>
+  <em>Have an ambitious product idea, need autonomous AI workflows, or want to discuss a role? Let's connect.</em>
+</p>
+
+<p align="center">
+  <a href="mailto:Developer@imprince.me"><code>✉️ Developer@imprince.me</code></a> &nbsp;•&nbsp; 
+  <a href="https://www.linkedin.com/in/princeraj-in/" target="_blank" rel="noreferrer"><code>💼 in/princeraj-in</code></a> &nbsp;•&nbsp; 
+  <a href="https://imprince.me" target="_blank" rel="noreferrer"><code>🌐 imprince.me</code></a>
 </p>
 <br/>
 
-<!-- IMAGE 2 STYLE PROFESSIONAL CONTACT & SOCIAL LOGOS -->
+<!-- GLASSMORPHISM INTERACTIVE CONNECT BUTTONS -->
 <p align="center">
   <a href="https://www.linkedin.com/in/princeraj-in/" target="_blank" rel="noreferrer" title="LinkedIn | Prince Raj">
     <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/footer-linkedin.svg" alt="LinkedIn" width="75" height="90" />
