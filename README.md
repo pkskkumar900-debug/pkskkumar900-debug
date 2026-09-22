@@ -46,7 +46,7 @@ I am a **Full-Stack Software Engineer & AI Systems Developer** based in Delhi, I
 
 | 📊 Metric | 📈 Status / Level | 🔍 Focus Area |
 | :--- | :--- | :--- |
-| 🚀 **Active Web Applications** | 3 Live Apps &nbsp; <img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/badge-beta.svg" alt="Beta" height="16" align="center" /> | [Lensdrop](https://lensdrop.imprince.me) • [City Helpline](https://app.imprince.me) • [imprince.me](https://imprince.me) |
+| 🚀 **Active Web Applications** | 3 Live Apps<br/>2 in Beta Testing &nbsp;<img src="https://raw.githubusercontent.com/princeraj-in/princeraj-in/main/assets/icons/badge-beta.svg" alt="Beta" height="14" align="center" /> | [Lensdrop](https://lensdrop.imprince.me) • [City Helpline](https://app.imprince.me) • [imprince.me](https://imprince.me) |
 | 📦 **Open-Source Repositories** | 5 Repositories with MIT Licenses | Community-friendly, well-documented codebases |
 | 🤖 **AI & Autonomous Systems** | Production LLM Architectures | Google Gemini APIs, Agent Workflows & Tooling |
 | 🌐 **Primary Apex Domain** | [imprince.me](https://imprince.me) | Vercel Edge hosting & DNS configuration |
