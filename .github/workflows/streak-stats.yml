@@ -1,0 +1,34 @@
+name: Update GitHub Streak Stats
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Har ghante automatically run hoga
+  workflow_dispatch: # Manual trigger ke liye
+
+permissions:
+  contents: write
+
+jobs:
+  update-streak:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate Streak Stats
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          options: user=princeraj-in&theme=onedark&hide_border=true&timezone=Asia/Kolkata
+          path: assets/icons/streak.svg
+
+      - name: Commit & Push Updated Stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/icons/streak.svg
+          if git diff --staged --quiet; then
+            echo "Stats are already up to date."
+          else
+            git commit -m "chore: auto-update streak stats [skip ci]"
+            git push
+          fi
