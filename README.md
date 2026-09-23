@@ -27,7 +27,7 @@ I am a **Full-Stack Software Engineer & AI Systems Developer** based in Delhi, I
 
 <p align="center">
   <a href="https://github.com/princeraj-in">
-    <img src="https://streak-stats.demolab.com?user=princeraj-in&theme=onedark&hide_border=true&timezone=Asia/Kolkata&v=2" alt="GitHub Streak" />
+    <img src="./assets/icons/streak.svg" alt="GitHub Streak" />
   </a>
 </p>
 
